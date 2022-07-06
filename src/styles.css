@@ -1,0 +1,215 @@
+.container {
+  padding: 0 2em;
+  /* min-width: 45em;
+  max-width: 60em; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  background-color: #ffdac9;
+  z-index: 2;
+  padding: 10em 0 8em;
+}
+
+header p {
+  text-align: center;
+  text-transform: uppercase;
+
+  text-align: center;
+  /* font: normal normal bold 115px/95px DIN Condensed; */
+  font-size: 70px;
+  font-family: DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+}
+.mainDiv {
+  background-color: aqua;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  margin-left: 22%;
+}
+
+.qestionDiv {
+  flex: 1;
+}
+
+.optionDiv {
+  margin-left: 20px;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: teal;
+  color:honeydew;  
+}
+
+
+
+.navBar a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+.navBar a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.navBar ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+.navBar ul li {
+  font-weight: var(--bold-font);
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+
+  /* gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto; */
+}
+
+.aboutMe img {
+  height: 37.5rem;
+  width: 37.5rem;
+}
+
+.aboutCard {
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  padding: 15px;
+  margin-top: 15px;
+  width: 100%;
+  /* min-height: 400px; */
+  min-width: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  /* animation: mymove 5s infinite; */
+background-color:honeydew;  
+}
+
+@keyframes mymove {
+  50% {
+    box-shadow: 10px 20px 30px var(--secondary-color);
+  }
+}
+
+/* .aboutCard h1 {
+  text-decoration: 3px var(--secondary-color) line-through;
+} */
+
+.aboutCard p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.mySkills {
+  text-align: center;
+  margin: 15vh;
+}
+
+/* .mySkills h1 {
+  text-decoration: 3px var(--secondary-color) line-through;
+} */
+
+.techDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.9rem;
+  margin: 15px;
+}
+
+.imgCard {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+.aboutCard img {
+  min-width: 100px;
+  max-width: 132px;
+}
+
+/* //mobie bookings style */
+
+.seatsRow {
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 0.2rem;
+}
+.seats {
+  height: 30px;
+  width: 35px;
+  /* background-color: aqua; */
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+}
+
+.formDiv {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+.formDiv label {
+  font-size: 25px;
+}
+
+.boldFont{
+  font-weight: 600;
+}
+
+.inVoiceContent{
+  margin: 10px;
+}
+
+* h1{
+  text-decoration: underline;
+}
+
+.formSubmit{
+  height: 40px;
+  width: 10vw;
+  border-radius: 10px;
+  background-color:darkgrey;
+  color: black;
+}

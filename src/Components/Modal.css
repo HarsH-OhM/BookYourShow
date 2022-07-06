@@ -1,0 +1,102 @@
+
+
+.modalContainer {
+  position: fixed;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba($color: #000000, $alpha: 0.35); */
+  background-color: rgba(255, 255, 255, 0.35);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.modalContainer .modal {
+  width: 60vw;
+  /* height: 500px; */
+  background-color:teal;
+  padding: 2rem;
+  border-radius: 20px;
+  overflow-y: scroll;
+
+  /* background-color: rgba(255, 255, 255, 0.35); */
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal_content {
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.modal_header1 {
+  border-bottom: 1px solid #dddddd;
+}
+
+.modal_header-title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+}
+
+.close img {
+  width: 1rem;
+  height: auto;
+  transition: all 0.3s;
+}
+.modal-close:hover img {
+  transform: scale(1.1);
+}
+
+.modal-close {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.modal-close:hover {
+  color: rgba(54, 67, 72, 0.8);
+}
+.modal-yes {
+  margin-right: 1rem;
+  background-color: #364348;
+  color: #fff;
+}
+
+.modal-yes :hover {
+  background-color: rgba(54, 67, 72, 0.8);
+}
+
+.modal_footer {
+  padding: 2rem 0;
+  padding-bottom: 0;
+ text-align: center;
+}
+
+.modal_footer button {
+  
+  padding: 0.5rem;
+width: 100px;
+margin-top: 20px;
+  border-radius: 8px;
+}
+
+
+.CtaDiv{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
